@@ -25,7 +25,10 @@ Bubble:
     Worst case: Array is in backwards order (greatest to least)
     Reasoning:
       We will count the number of swaps by counting the number of times an element swaps with one to its' right.
-      For each element in the collection, we can look at the element to its' right. If the element is greater, the pair will not swap, because the two would already be ordered if they reach consecutive places. If the element is less, they will have to swap exactly once, because the second element needs to pass the first in order to be left of the first at the end of the process. In order to 
+      For each element in the collection, we can look at the element to its' right. If the element is greater, the pair will not swap, because the two would already be ordered
+      if they reach consecutive places. If the element is less, they will have to swap exactly once, because the second element needs to pass the first in order to be left of
+      the first at the end of the process. In an array that is already sorted from least to greatest, no swaps will be required. In an array sorted from greatest to 
+      least, the most amount of swaps will be required because the beginning elements must be swaped one index at a time to end up at the highest indexes.
 
 Selection:
 
