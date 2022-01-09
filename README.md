@@ -37,6 +37,12 @@ Selection:
 
     Best case: any case
     Worst case: any case
+    Reasoning:
+        We will count the number of swaps done on an ArrayList in ascending order, descending order, and random order
+        with the same number of elements. The number of swaps will be equal in any case because although the order may
+        affect the time it takes to locate each subsequent element, the number of swaps required will always be equal
+        to the size of the ArrayList. Swaps are done for each index of the ArrayList, including when an element swaps
+        to its current index.
 
 Insertion:
 
