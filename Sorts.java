@@ -37,10 +37,10 @@ public class Sorts{
           maxPos = idx;
         }
       }
+      swapCount++;
       Comparable temp = data.get(maxPos);
       data.set(maxPos,data.get(data.size()-pass));
       data.set(data.size()-pass,temp);
-      swapCount++;
     }
     System.out.println(swapCount);
   }//end selectionSort
