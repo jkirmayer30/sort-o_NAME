@@ -42,7 +42,6 @@ Insertion:
     Worst case: Array is in backwards order (greatest to least)
     
 =======
-time spent:  0.5 hours
 
 Bubble:
 * Best case: Array is already sorted least to greatest
