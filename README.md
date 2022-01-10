@@ -40,8 +40,9 @@ Insertion:
 
     Best case: Array is already sorted least to greatest
     Worst case: Array is in backwards order (greatest to least)
-    
-=======
+    Reasoning:
+        It is similiar to Bubble Sort in that it will take the most swaps to sort an ArrayList in descending order, as
+        a greater number of swaps is required to sort the unsorted region.
 
 Bubble:
 * Best case: Array is already sorted least to greatest
