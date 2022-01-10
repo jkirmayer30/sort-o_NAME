@@ -1,4 +1,4 @@
-NAME (Lior + Toothless, Jacob + , Jeffery + Mathias)
+NAME (Lior + Toothless, Jacob + Jacob Jr., Jeffery + Mathias)
 =======
 
 NAME (Lior + Toothless, Jacob + , Jeffery + Mathias)
