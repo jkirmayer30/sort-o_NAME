@@ -13,8 +13,8 @@ time spent: 0.5 hours
 
 Bubble:
 
-    Best case: Array is already sorted least to greatest
-    Worst case: Array is in backwards order (greatest to least)
+    Best case: Array is already sorted least to greatest: O(n)
+    Worst case: Array is in backwards order (greatest to least) : O(n^2)
     Reasoning:
       We will count the number of swaps by counting the number of times an element swaps with one to its' right.
       For each element in the collection, we can look at the element to its' right. If the element is greater,
@@ -27,8 +27,8 @@ Bubble:
 
 Selection:
 
-    Best case: any case
-    Worst case: any case
+    Best case: any case : O(n^2)
+    Worst case: any case : O(n^2)
     Reasoning:
         We will count the number of swaps done on an ArrayList in ascending order, descending order, and random order
         with the same number of elements. The number of swaps will be equal in any case because although the order may
@@ -38,8 +38,8 @@ Selection:
 
 Insertion:
 
-    Best case: Array is already sorted least to greatest
-    Worst case: Array is in backwards order (greatest to least)
+    Best case: Array is already sorted least to greatest : O(n)
+    Worst case: Array is in backwards order (greatest to least) : O(n^2)
     Reasoning:
         It is similiar to Bubble Sort in that it will take the most swaps to sort an ArrayList in descending order, as
         a greater number of swaps is required to sort the unsorted region.
